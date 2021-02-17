@@ -5,14 +5,15 @@ def bubble_sort(arr)
     length_of_arr = arr.length - 1
     length_of_arr.times do
     (0..arr.length - 2 - num_of_sort).each do |i|
+        
     next unless arr[i] > arr[i + 1]
-
     temp = arr[i]
     arr[i] = arr[i + 1]
     arr[i + 1] = temp
-end
+    end
     num_of_sort += 1
-end
+    end
     arr
 end
+
 print arr
