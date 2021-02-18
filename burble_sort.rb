@@ -1,4 +1,3 @@
-bubble_sort([4, 3, 78, 2, 0, 2])
 
 def bubble_sort(arr)
   num_of_sort = 0
@@ -15,4 +14,4 @@ def bubble_sort(arr)
   end
   arr
 end
-print arr
+p bubble_sort([4, 3, 78, 2, 0, 2])
