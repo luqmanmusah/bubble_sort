@@ -15,6 +15,3 @@ def bubble_sort_by(arr)
   end
   arr
 end
-bubble_sort_by(%w[allof me those you them]) do |left, right|
-  left.length - right.length
-end
