@@ -1,5 +1,5 @@
-bubble_sort([4,3,78,2,0,2])
-def bubble_sort (arr)
+#bubble_sort([4,3,78,2,0,2])
+def bubble_sort(arr)
 num_of_sort = 0
 length_of_arr = arr.length - 1
 length_of_arr.times do
@@ -13,4 +13,4 @@ length_of_arr.times do
 end
 arr
 end
-print arr
+
