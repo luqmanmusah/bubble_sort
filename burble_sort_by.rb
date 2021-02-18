@@ -6,6 +6,7 @@ def bubble_sort_by(arr)
       left = arr[i]
       right = arr[i + 1]
       next unless yield(left, right).positive?
+
       temp = arr[i]
       arr[i] = arr[i + 1]
       arr[i + 1] = temp
