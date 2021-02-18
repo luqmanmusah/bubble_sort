@@ -13,7 +13,7 @@ def bubble_sort_by(arr)
     end
     num_of_sort += 1
   end
-  puts arr
+  arr
 end
 bubble_sort_by(%w[allof me those you them]) do |left, right|
   left.length - right.length
